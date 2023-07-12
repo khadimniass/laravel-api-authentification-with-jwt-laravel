@@ -12,10 +12,10 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('personal_access_tokens', function (Blueprint $table) {
-            $table->id();
-            $table->morphs('tokenable');
-            $table->string('name');
-            $table->string('token', 64)->unique();
+            $table->id()->unique();
+           // $table->uuidMorphs('tokenable'); ça sera à moi de géré sinnn des erreurs seront seront générées pour rien
+            $table->string('name',100);
+            $table->string('token', 100)->unique();
             $table->text('abilities')->nullable();
             $table->timestamp('last_used_at')->nullable();
             $table->timestamp('expires_at')->nullable();
