@@ -65,7 +65,7 @@ donnez vos feed back
 
 [niassssn@gmail.com](mailto:niassssn@gmail.com)
 
-[+221 77 195 87 13](wa.me/+221771958713)
+[+221 77 195 87 13](https://wa.me/+221771958713)
 <center>
 <footer>
    <a target="_blank" href="http://khadimniass.me">
